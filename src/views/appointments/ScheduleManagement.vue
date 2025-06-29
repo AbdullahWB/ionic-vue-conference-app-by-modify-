@@ -9,7 +9,10 @@
         <p class="empty-subtitle">Add sessions from the schedule below.</p>
       </div>
       <ion-list v-else :inset="true" class="agenda-list">
-        <ion-item-sliding v-for="session in myAgenda" :key="`agenda-${session.id}`">
+        <ion-item-sliding
+          v-for="session in myAgenda"
+          :key="`agenda-${session.id}`"
+        >
           <ion-item lines="none" class="agenda-item">
             <div class="time-slot" slot="start">
               <span class="time">{{ session.startTime }}</span>
@@ -17,7 +20,9 @@
             <ion-label>
               <h3>{{ session.title }}</h3>
               <p>
-                <ion-badge color="light" class="location-badge">{{ session.location }}</ion-badge>
+                <ion-badge color="light" class="location-badge">{{
+                  session.location
+                }}</ion-badge>
               </p>
             </ion-label>
           </ion-item>
@@ -40,20 +45,30 @@
       <ion-item-divider sticky>
         <ion-label>{{ time }}</ion-label>
       </ion-item-divider>
-      <ion-card v-for="session in sessionsInSlot" :key="session.id" class="session-card">
+      <ion-card
+        v-for="session in sessionsInSlot"
+        :key="session.id"
+        class="session-card"
+      >
         <ion-card-content>
           <div class="session-info">
             <ion-label>
               <h3>{{ session.title }}</h3>
               <p class="speaker-name">{{ session.speaker }}</p>
-              <ion-badge color="light" class="location-badge">{{ session.location }}</ion-badge>
+              <ion-badge color="light" class="location-badge">{{
+                session.location
+              }}</ion-badge>
             </ion-label>
           </div>
           <div class="session-actions">
             <ion-button fill="clear" @click="toggleReminder(session.id)">
               <ion-icon
                 slot="icon-only"
-                :icon="reminders.has(session.id) ? notifications : notificationsOutline"
+                :icon="
+                  reminders.has(session.id)
+                    ? notifications
+                    : notificationsOutline
+                "
                 :color="reminders.has(session.id) ? 'primary' : 'medium'"
               ></ion-icon>
             </ion-button>
@@ -76,16 +91,38 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue';
-import { IonContent, IonList, IonItem, IonLabel, IonButton, IonIcon, IonCard, IonCardContent, IonItemDivider, IonBadge, IonItemSliding, IonItemOptions, IonItemOption, alertController } from '@ionic/vue';
-import allSessions from '@/Data/sessions';
-import { add, notifications, notificationsOutline, removeCircleOutline, checkmarkDone, calendarClearOutline } from 'ionicons/icons';
+import { ref, computed } from "vue";
+import {
+  IonContent,
+  IonList,
+  IonItem,
+  IonLabel,
+  IonButton,
+  IonIcon,
+  IonCard,
+  IonCardContent,
+  IonItemDivider,
+  IonBadge,
+  IonItemSliding,
+  IonItemOptions,
+  IonItemOption,
+  alertController,
+} from "@ionic/vue";
+import allSessions from "@/Data/sessions";
+import {
+  add,
+  notifications,
+  notificationsOutline,
+  removeCircleOutline,
+  checkmarkDone,
+  calendarClearOutline,
+} from "ionicons/icons";
 
 const myAgenda = ref([]);
 const reminders = ref(new Set());
 
 const timeToMinutes = (time) => {
-  const [hours, minutes] = time.split(':').map(Number);
+  const [hours, minutes] = time.split(":").map(Number);
   return hours * 60 + minutes;
 };
 
@@ -108,27 +145,29 @@ const addToAgenda = async (session) => {
     removeFromAgenda(session);
     return;
   }
-  
+
   const conflictingSession = hasConflict(session);
   if (conflictingSession) {
     const alert = await alertController.create({
-      header: 'Schedule Conflict',
+      header: "Schedule Conflict",
       message: `This session overlaps with "${conflictingSession.title}". Please adjust your schedule.`,
-      buttons: ['OK'],
+      buttons: ["OK"],
     });
     await alert.present();
     return;
   }
   myAgenda.value.push(session);
-  myAgenda.value.sort((a, b) => timeToMinutes(a.startTime) - timeToMinutes(b.startTime));
+  myAgenda.value.sort(
+    (a, b) => timeToMinutes(a.startTime) - timeToMinutes(b.startTime)
+  );
 };
 
 const removeFromAgenda = (session) => {
-  myAgenda.value = myAgenda.value.filter(s => s.id !== session.id);
+  myAgenda.value = myAgenda.value.filter((s) => s.id !== session.id);
 };
 
 const isInAgenda = (sessionId) => {
-  return myAgenda.value.some(s => s.id === sessionId);
+  return myAgenda.value.some((s) => s.id === sessionId);
 };
 
 const toggleReminder = (sessionId) => {
@@ -202,7 +241,7 @@ const sessionsByTime = computed(() => {
   margin-left: 16px;
   margin-right: 16px;
   margin-bottom: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   border-radius: 12px;
 }
 
