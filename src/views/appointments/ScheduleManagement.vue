@@ -1,4 +1,5 @@
 <template>
+  <ion-page>
   <ion-content class="custom-content" :fullscreen="true">
     <!-- 1. Personalized Agenda Section -->
     <div class="ion-padding">
@@ -88,6 +89,7 @@
       </ion-card>
     </div>
   </ion-content>
+  </ion-page>
 </template>
 
 <script setup>
@@ -107,6 +109,7 @@ import {
   IonItemOptions,
   IonItemOption,
   alertController,
+  IonPage
 } from "@ionic/vue";
 import allSessions from "@/Data/sessions";
 import {

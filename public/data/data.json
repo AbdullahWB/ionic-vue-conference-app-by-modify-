@@ -1,242 +1,158 @@
 {
   "schedule": [
     {
-      "date": "2047-05-17",
+      "date": "2025-08-22",
       "groups": [
         {
-          "time": "8:00 am",
+          "time": "9:00 am",
           "sessions": [
             {
-              "name": "Breakfast",
-              "timeStart": "8:00 am",
-              "timeEnd": "9:00 am",
-              "location": "Dining Hall",
-              "tracks": ["Food"],
+              "name": "Registration & Welcome Coffee",
+              "timeStart": "9:00 am",
+              "timeEnd": "9:30 am",
+              "location": "Lobby, Hyatt Place",
+              "tracks": ["Networking"],
               "id": "1"
             }
           ]
         },
         {
-          "time": "9:15 am",
+          "time": "9:30 am",
           "sessions": [
             {
-              "name": "Getting Started with Ionic",
-              "location": "Hall 2",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Vue, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Vue.",
-              "speakerNames": ["Ted Turtle"],
+              "name": "Keynote: The Future of Cross-Platform Development",
+              "location": "Main Hall",
+              "description": "Join us for the opening keynote where we explore the latest trends in mobile and web development, the impact of AI on our workflows, and our vision for a unified development future.",
+              "speakerNames": ["Mohammad Abdullah"],
               "timeStart": "9:30 am",
-              "timeEnd": "9:45 am",
-              "tracks": ["Ionic"],
+              "timeEnd": "10:15 am",
+              "tracks": ["Keynote", "Strategy"],
               "id": "2"
-            },
+            }
+          ]
+        },
+        {
+          "time": "10:30 am",
+          "sessions": [
             {
-              "name": "Ionic Tooling",
-              "location": "Executive Ballroom",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Vue, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Vue.",
-              "speakerNames": ["Rachel Rabbit"],
-              "timeStart": "9:45 am",
-              "timeEnd": "10:00 am",
-              "tracks": ["Tooling"],
+              "name": "Mastering Vue 3 Composition API",
+              "location": "Room A",
+              "description": "A deep dive into the Vue 3 Composition API. Learn how to write cleaner, more reusable, and more scalable code for your complex components.",
+              "speakerNames": ["Jabe"],
+              "timeStart": "10:30 am",
+              "timeEnd": "11:15 am",
+              "tracks": ["Vue", "Frontend"],
               "id": "3"
             },
             {
-              "name": "University of Ionic",
-              "location": "Hall 3",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Vue, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Vue.",
-              "speakerNames": ["Ellie Elephant"],
-              "timeStart": "9:15 am",
-              "timeEnd": "9:30 am",
-              "tracks": ["Ionic"],
+              "name": "Designing for Engagement: A UI/UX Workshop",
+              "location": "Room B",
+              "description": "In this interactive workshop, we'll cover the principles of user-centric design, from wireframing to high-fidelity prototypes, ensuring your app is not just functional but delightful.",
+              "speakerNames": ["Olin"],
+              "timeStart": "10:30 am",
+              "timeEnd": "11:15 am",
+              "tracks": ["Design", "Workshop"],
               "id": "4"
             }
           ]
         },
         {
-          "time": "10:00 am",
+          "time": "11:30 am",
           "sessions": [
             {
-              "name": "Migrating to Ionic",
-              "location": "Hall 1",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Vue, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Vue.",
-              "speakerNames": ["Eva Eagle", "Lionel Lion"],
-              "timeStart": "10:00 am",
-              "timeEnd": "10:15 am",
-              "tracks": ["Ionic"],
+              "name": "Building Resilient Backends with Node.js",
+              "location": "Room A",
+              "description": "Explore patterns and best practices for creating robust and scalable backend services. We'll cover error handling, database architecture, and securing your API endpoints.",
+              "speakerNames": ["Sijan"],
+              "timeStart": "11:30 am",
+              "timeEnd": "12:15 pm",
+              "tracks": ["Backend", "Node.js"],
               "id": "5"
             },
             {
-              "name": "What's New in Vue",
-              "location": "Hall 3",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Vue, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Vue.",
-              "speakerNames": ["Rachel Rabbit"],
-              "timeStart": "10:15 am",
-              "timeEnd": "10:30 am",
-              "tracks": ["Vue"],
+              "name": "Automate Everything: Intro to CI/CD Pipelines",
+              "location": "Room B",
+              "description": "Learn how to set up Continuous Integration and Continuous Deployment (CI/CD) pipelines to automatically build, test, and deploy your application, saving time and reducing errors.",
+              "speakerNames": ["Shawon"],
+              "timeStart": "11:30 am",
+              "timeEnd": "12:15 pm",
+              "tracks": ["DevOps", "Tooling"],
               "id": "6"
-            },
+            }
+          ]
+        },
+        {
+          "time": "12:15 pm",
+          "sessions": [
             {
-              "name": "The Evolution of Ionicons",
-              "location": "Hall 2",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Vue, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Vue.",
-              "speakerNames": ["Isabella Iguana", "Eva Eagle"],
-              "timeStart": "10:15 am",
-              "timeEnd": "10:30 am",
-              "tracks": ["Design"],
+              "name": "Lunch & Networking",
+              "location": "Dining Hall & Terrace",
+              "description": "Enjoy a delicious Sichuan-style lunch while connecting with fellow developers and speakers.",
+              "timeStart": "12:15 pm",
+              "timeEnd": "1:30 pm",
+              "tracks": ["Food", "Networking"],
               "id": "7"
-            },
+            }
+          ]
+        },
+        {
+          "time": "1:30 pm",
+          "sessions": [
             {
-              "name": "Ionic Pro",
-              "location": "Grand Ballroom A",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Vue, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Vue.",
-              "speakerNames": ["Charlie Cheetah"],
-              "timeStart": "10:45 am",
-              "timeEnd": "11:00 am",
-              "tracks": ["Services"],
+              "name": "Panel: The Developer's Toolkit in 2025",
+              "location": "Main Hall",
+              "description": "Join all our speakers for a lively panel discussion on the essential tools, languages, and frameworks that modern developers need to know. Bring your questions for the open Q&A session.",
+              "speakerNames": [
+                "Mohammad Abdullah",
+                "Jabe",
+                "Sijan",
+                "Olin",
+                "Shawon"
+              ],
+              "timeStart": "1:30 pm",
+              "timeEnd": "2:30 pm",
+              "tracks": ["Panel", "Community"],
               "id": "8"
             }
           ]
         },
         {
-          "time": "11:00 am",
+          "time": "2:45 pm",
           "sessions": [
             {
-              "name": "Ionic Workshop",
-              "location": "Hall 1",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Vue, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Vue.",
-              "speakerNames": ["Karl Kitten", "Lionel Lion"],
-              "timeStart": "11:00 am",
-              "timeEnd": "11:45 am",
-              "tracks": ["Workshop"],
+              "name": "From Localhost to Live: A Deployment Deep Dive",
+              "location": "Room B",
+              "description": "A practical guide to deploying modern web applications. We'll compare different hosting platforms like Vercel and Netlify and walk through the process of getting your app online.",
+              "speakerNames": ["Shawon", "Mohammad Abdullah"],
+              "timeStart": "2:45 pm",
+              "timeEnd": "3:30 pm",
+              "tracks": ["DevOps", "Deployment"],
               "id": "9"
             },
             {
-              "name": "Community Interaction",
-              "location": "Hall 3",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Vue, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Vue.",
-              "speakerNames": ["Lionel Lion", "Gino Giraffe"],
-              "timeStart": "11:30 am",
-              "timeEnd": "11:50 am",
-              "tracks": ["Communication"],
-              "id": "10"
-            },
-            {
-              "name": "Navigation in Ionic",
-              "location": "Grand Ballroom A",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Vue, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Vue.",
-              "speakerNames": ["Rachel Rabbit", "Eva Eagle"],
-              "timeStart": "11:30 am",
-              "timeEnd": "12:00 pm",
-              "tracks": ["Navigation"],
-              "id": "11"
-            }
-          ]
-        },
-        {
-          "time": "12:00 pm",
-          "sessions": [
-            {
-              "name": "Lunch",
-              "location": "Dining Hall",
-              "description": "Come grab lunch with all the Ionic fanatics and talk all things Ionic",
-              "timeStart": "12:00 pm",
-              "timeEnd": "1:00 pm",
-              "tracks": ["Food"],
-              "id": "12"
-            }
-          ]
-        },
-        {
-          "time": "1:00 pm",
-          "sessions": [
-            {
-              "name": "Ionic in the Enterprise",
-              "location": "Hall 1",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Vue, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Vue.",
-              "speakerNames": ["Paul Puppy"],
-              "timeStart": "1:00 pm",
-              "timeEnd": "1:15 pm",
-              "tracks": ["Communication"],
-              "id": "13"
-            },
-            {
-              "name": "Ionic Worldwide",
-              "location": "Hall 1",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Vue, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Vue.",
-              "speakerNames": ["Gino Giraffe"],
-              "timeStart": "1:15 pm",
-              "timeEnd": "1:30 pm",
-              "tracks": ["Communication"],
-              "id": "14"
-            },
-            {
-              "name": "The Ionic Package",
-              "location": "Grand Ballroom B",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Vue, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Vue.",
-              "speakerNames": ["Molly Mouse", "Burt Bear"],
-              "timeStart": "1:30 pm",
-              "timeEnd": "2:00 pm",
-              "tracks": ["Services"],
-              "id": "15"
-            }
-          ]
-        },
-        {
-          "time": "2:00 pm",
-          "sessions": [
-            {
-              "name": "Push Notifications in Ionic",
-              "location": "Hall 2",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Vue, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Vue.",
-              "speakerNames": ["Burt Bear", "Charlie Cheetah"],
-              "timeStart": "2:00 pm",
-              "timeEnd": "2:30 pm",
-              "tracks": ["Services"],
-              "id": "16"
-            },
-            {
-              "name": "Ionic Documentation",
-              "location": "Grand Ballroom B",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Vue, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Vue.",
-              "speakerNames": ["Donald Duck"],
-              "timeStart": "2:30 pm",
-              "timeEnd": "2:45 pm",
-              "tracks": ["Documentation"],
-              "id": "17"
-            },
-            {
-              "name": "UX in Ionic",
-              "location": "Hall 3",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Vue, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Vue.",
-              "speakerNames": ["Isabella Iguana", "Ellie Elephant"],
+              "name": "Live App Critique",
+              "location": "Room A",
+              "description": "Our UI/UX and Frontend experts will review audience-submitted applications live on stage, providing constructive feedback on design, performance, and user experience.",
+              "speakerNames": ["Olin", "Jabe"],
               "timeStart": "2:45 pm",
-              "timeEnd": "3:00 pm",
-              "tracks": ["Design"],
-              "id": "18"
+              "timeEnd": "3:30 pm",
+              "tracks": ["Design", "Community"],
+              "id": "10"
             }
           ]
         },
         {
-          "time": "3:00 pm",
+          "time": "3:45 pm",
           "sessions": [
             {
-              "name": "Building with Ionic and Vue",
-              "location": "Hall 1",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Vue, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Vue.",
-              "speakerNames": ["Ted Turtle"],
-              "timeStart": "3:00 pm",
-              "timeEnd": "3:30 pm",
-              "tracks": ["Vue"],
-              "id": "19"
-            },
-            {
-              "name": "Mobile States",
-              "location": "Hall 2",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Vue, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Vue.",
-              "speakerNames": ["Rachel Rabbit"],
-              "timeStart": "3:30 pm",
-              "timeEnd": "3:45 pm",
-              "tracks": ["Navigation"],
-              "id": "20"
+              "name": "Closing Remarks & Future Roadmap",
+              "location": "Main Hall",
+              "description": "A final thank you to our attendees and a look ahead at what's next for our team and the technologies we love. Stick around for prize giveaways!",
+              "speakerNames": ["Mohammad Abdullah"],
+              "timeStart": "3:45 pm",
+              "timeEnd": "4:00 pm",
+              "tracks": ["Keynote"],
+              "id": "11"
             }
           ]
         }
@@ -405,20 +321,20 @@
 
   "map": [
     {
-      "name": "Monona Terrace Convention Center",
-      "lat": 43.071584,
-      "lng": -89.38012,
+      "name": "Hyatt Place Nanchong Gaoping",
+      "lat": 30.8236,
+      "lng": 106.1155,
       "center": true
     },
     {
-      "name": "Ionic HQ",
-      "lat": 43.074395,
-      "lng": -89.381056
+      "name": "Nanchong Beihu Park",
+      "lat": 30.7981,
+      "lng": 106.0855
     },
     {
-      "name": "Afterparty - Brocach Irish Pub",
-      "lat": 43.07336,
-      "lng": -89.38335
+      "name": "Afterparty - Local Hotpot Restaurant",
+      "lat": 30.8215,
+      "lng": 106.117
     }
   ],
 

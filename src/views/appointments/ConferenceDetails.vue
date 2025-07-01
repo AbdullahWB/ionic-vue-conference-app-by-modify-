@@ -1,4 +1,5 @@
 <template>
+  <ion-page>
   <ion-content class="custom-content" :fullscreen="true">
     <div class="ion-padding">
       <!-- 1. Session Description Section -->
@@ -58,6 +59,7 @@
         </ion-item>
     </div>
   </ion-content>
+  </ion-page>
 </template>
 
 <script setup>
@@ -72,7 +74,8 @@ import {
   IonIcon,
   IonLabel,
   IonItem,
-  IonAvatar
+  IonAvatar,
+  IonPage
 } from '@ionic/vue';
 import { timeOutline, navigateCircleOutline, videocamOutline } from 'ionicons/icons';
 import conferenceInfo from '@/Data/conferenceInfo';

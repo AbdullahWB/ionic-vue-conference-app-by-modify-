@@ -1,4 +1,5 @@
 <template>
+  <ion-page>
   <ion-content :fullscreen="true">
     <div class="ion-padding">
       <h2 class="section-title">Digital Pass</h2>
@@ -34,6 +35,7 @@
       </ion-button>
     </div>
   </ion-content>
+  </ion-page>
 </template>
 
 <script setup>
@@ -50,6 +52,7 @@ import {
   IonChip,
   IonLabel,
   toastController,
+  IonPage
 } from "@ionic/vue";
 import { downloadOutline, star } from "ionicons/icons";
 

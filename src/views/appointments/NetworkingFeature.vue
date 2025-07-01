@@ -1,4 +1,5 @@
 <template>
+  <ion-page>
   <ion-content class="custom-content" :fullscreen="true">
     <!-- 1. Contact Exchange Section -->
     <div class="ion-padding">
@@ -46,6 +47,7 @@
       </ion-item>
     </ion-list>
   </ion-content>
+  </ion-page>
 </template>
 
 <script setup>
@@ -62,6 +64,7 @@ import {
   IonChip,
   modalController,
   toastController,
+  IonPage
 } from '@ionic/vue';
 import { qrCodeOutline } from 'ionicons/icons';
 import availableSpeakers from '@/Data/speakers';
