@@ -61,7 +61,7 @@ const userTicket = ref({
   id: "CONF-TICKET-12345",
   holderName: "Jane Doe",
   eventName: "Ionic World Conference",
-  tier: "VIP", // Can be 'VIP', 'Standard', 'Early Bird'
+  tier: "VIP", 
   qrData: JSON.stringify({
     ticketId: "CONF-TICKET-12345",
     userId: "USER-9876",
